@@ -1,0 +1,73 @@
+.container{
+  @apply mx-auto max-w-[95%] lg:max-w-[90%] 2xl:max-w-[80%];
+}
+.primary-button{
+  @apply px-5 py-3 bg-primary text-white font-semibold rounded my-4 hover:bg-amber-600 duration-500;
+}
+.common-section {
+  @apply bg-no-repeat bg-center bg-cover ;
+
+  position: relative;
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(23,23,21);
+    background: linear-gradient(184deg, rgba(23,23,21,0.7) 39%, rgba(217,189,28,0.2) 94%);
+  }
+  &__about{
+    background: url("https://images.pexels.com/photos/12072371/pexels-photo-12072371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  &__madrasah{
+    background: url("https://images.pexels.com/photos/326716/pexels-photo-326716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&fbclid=IwAR34VamWiTNkXdcL7pgR7vn99Q-iGHYiK7IZGHWTRU7C32XRGjJ6fg56Ox0_aem_AajKbAvtU4TOe9LnTMrruLmzNJJYKEiaK7-SkMaTYKksW0K_TaC4VaA_ortBhpaAedHpNdEmlqdvM02FfNtZUNvA");
+  }
+  &__funeral{
+    background: url("https://www.shutterstock.com/image-photo/view-muslim-graveyard-260nw-484939459.jpg");
+  }
+  &__nikah{
+    background: url("https://img.freepik.com/free-photo/wedding-still-life-with-roses_23-2147975901.jpg?t=st=1712136678~exp=1712140278~hmac=b95ff4b4242907cc1ec1793d36c0a8cf49540c7a86197e403f479751612ac457&w=740");
+  }
+  &__visitmosque{
+    background: url("https://images.pexels.com/photos/460680/pexels-photo-460680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  &__gallery{
+    background:url("https://images.pexels.com/photos/7984727/pexels-photo-7984727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  &__contact{
+    background:url("https://images.pexels.com/photos/8489005/pexels-photo-8489005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  }
+  h1{
+    @apply text-center text-white text-4xl py-52 relative font-bold
+    transition ease-in-out hover:-translate-y-10 hover:scale-150  duration-500;
+  }
+}
+
+nav {
+  .router-link-exact-active {
+    &::after{
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 0;
+      bottom:-10px;
+      height: 2px;
+      width: 100%;
+      background: #cd922c;
+      transition: all .4s ease;
+    }
+  }
+}
+footer {
+  .router-link-exact-active {
+    @apply mr-5 bg-primary text-white duration-700;
+  }
+}
+
+.swiper{
+  img{
+    @apply h-[500px] w-full rounded-2xl;
+  }
+}
+

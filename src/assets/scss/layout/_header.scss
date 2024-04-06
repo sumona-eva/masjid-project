@@ -1,0 +1,43 @@
+.hero-section{
+  overflow: hidden;
+  background: url("https://images.pexels.com/photos/6095134/pexels-photo-6095134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  position: relative;
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(23,23,21);
+    background: linear-gradient(184deg, rgba(23,23,21,0.7) 39%, rgba(217,189,28,0.2) 94%);
+  }
+}
+.nav-style{
+  position: relative;
+  &::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom:-10px;
+    height: 2px;
+    width: 0;
+    background: #cd922c;
+    transition: all .4s ease;
+  }
+  &:hover{
+    &::after{
+
+      transition: all .4s ease;
+      width: 100%;
+    }
+  }
+}
+.main-text{
+
+  color: #ffffff;
+  padding-block: 180px;
+  position: relative;
+
+}

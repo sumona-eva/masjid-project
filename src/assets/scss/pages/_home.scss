@@ -1,0 +1,21 @@
+.namaj-time-section{
+    overflow: hidden;
+    background: url("https://images.pexels.com/photos/161276/moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    position: relative;
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        //background: #000;
+        background: rgb(23,23,21);
+       background: linear-gradient(184deg, rgba(23,23,21,0.5) 39%, rgba(187, 164, 29, 0.3) 94%);
+    }
+}
+.service-section{
+    @apply bg-gradient-to-r from-orange-100 to-stone-100;
+}
+.meet-imam-section{
+    @apply bg-white;
+}
