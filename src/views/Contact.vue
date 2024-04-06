@@ -12,7 +12,10 @@
           </div>
 
           <div class="container">
-            <div class="flex flex-col lg:flex-row gap-5 mx-14 my-14 ">
+            <div class="flex flex-col lg:flex-row gap-5 mx-14 my-14 "
+                 data-aos="zoom-out-right"
+                 data-aos-duration="800">
+
                 <div class="w-full lg:w-1/4">
                   <ul class="leading-10 border border-amber-500 text-center lg:p-10 p-5 rounded-2xl h-full flex flex-col items-center justify-center" >
                     <li><i class="fa-solid fa-phone text-primary text-2xl" ></i></li>
@@ -56,14 +59,19 @@
 
     <section>
       <div class="container">
-        <div class="flex flex-col lg:flex-row justify-center">
+        <div class="flex flex-col lg:flex-row justify-center"
+             data-aos="zoom-out-left"
+             data-aos-duration="800">
+
           <div class="w-full lg:w-1/2 py-28">
             <h1 class="font-semibold lg:text-4xl text-2xl text-center">Frequently Asked Questions</h1>
             <img src="@/assets/images/flower.png" alt="" class="w-20 h-20 m-5 mx-auto">
           </div>
         </div>
 
-        <div class="flex flex-col lg:flex-row text-center pb-16">
+        <div class="flex flex-col lg:flex-row text-center pb-16"
+             data-aos="zoom-out-right"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/2">
             <div class="flex flex-col justify-center items-center">
               <Disclosure v-slot="{ open }">
@@ -99,7 +107,10 @@
           </div>
 
           <div class="w-full lg:w-1/2">
-            <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center"
+                 data-aos="zoom-out-left"
+                 data-aos-duration="800">
+
                 <Disclosure v-slot="{ open }">
                   <DisclosureButton class="py-8 flex ">
                     <p class="flex font-semibold text-xl text-gray-500 ">Does the Mosque have women's facilites?</p>
@@ -135,7 +146,9 @@
       </div>
 
       <div class="container">
-        <div class="flex flex-col lg:flex-row pt-24 items-center">
+        <div class="flex flex-col lg:flex-row pt-24 items-center"
+             data-aos="zoom-out-right"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/4">
             <div><img src="@/assets/images/phone-call.jpg" alt="" class="p-8"></div>
           </div>

@@ -14,7 +14,9 @@
     <section>
       <div class="container pt-28">
         <div class="flex flex-col lg:flex-row">
-          <div class="w-full lg:w-1/2 lg:p-20">
+          <div class="w-full lg:w-1/2 lg:p-20"
+               data-aos="zoom-out-right"
+               data-aos-duration="800">
             <Swiper
                 :spaceBetween="40"
                 :centeredSlides="true"
@@ -34,12 +36,15 @@
               <SwiperSlide><img src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1711843200&semt=sph" alt=""></SwiperSlide>
               <SwiperSlide><img src="https://media.istockphoto.com/id/1475239283/photo/knowledge-is-power.jpg?s=612x612&w=0&k=20&c=xk8f8egx-fcsGbRysmbhBT9bymFIShNX9KPPv-OjGJY=" alt=""></SwiperSlide>
             </Swiper>
-            <p class="py-12 text-gray-700 text-center">
+            <p class="py-12 text-gray-700 text-center"
+               data-aos="zoom-out-left"
+               data-aos-duration="800">
               Balham Mosque & Tooting Islamic Centre regularly hold talks and events to ensure the local Muslim and non-Muslim community benefit from the teachings of Islam.
               </p>
           </div>
           <div class="w-full lg:w-1/2 pt-16" >
-            <div>
+            <div data-aos="zoom-out-right"
+                 data-aos-duration="800">
               <div class=" ">
                 <a class="flex items-center font-semibold"
                    href="/">
@@ -90,7 +95,10 @@
                     </p>
                   </li>
                 </ul>
-                <button class="primary-button ml-8">VIEW UPCOMING EVENTS </button>
+                <button class="primary-button ml-8"
+                        data-aos="zoom-out-left"
+                        data-aos-duration="800"
+                >VIEW UPCOMING EVENTS </button>
               </div>
 
             </div>
@@ -101,7 +109,9 @@
 
     <section>
       <div class="container">
-        <div class="flex flex-col lg:flex-row justify-center">
+        <div class="flex flex-col lg:flex-row justify-center"
+             data-aos="zoom-out-right"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/2 pb-20">
               <h1 class="font-semibold lg:text-4xl text-center text-2xl pt-20">Events Gallery</h1>
               <img src="@/assets/images/flower.png" alt="" class="w-20 h-20 m-5 mx-auto">
@@ -129,7 +139,10 @@
       </div>
 
       <div class="container">
-        <div class="flex flex-col lg:flex-row pt-24 items-center">
+        <div class="flex flex-col lg:flex-row pt-24 items-center"
+             data-aos="zoom-out-left"
+             data-aos-duration="800">
+
           <div class="w-full lg:w-1/4">
             <div><img src="@/assets/images/phone-call.jpg" alt="" class="p-8"></div>
           </div>

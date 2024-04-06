@@ -14,7 +14,9 @@
     <section>
       <div class="container pt-28">
         <div class="flex flex-col lg:flex-row">
-          <div class="w-full lg:w-1/2 lg:p-20">
+          <div class="w-full lg:w-1/2 lg:p-20"
+               data-aos="zoom-out-right"
+               data-aos-duration="800">
             <Swiper
                 :spaceBetween="40"
                 :centeredSlides="true"
@@ -34,7 +36,9 @@
               <SwiperSlide><img src="https://img.freepik.com/free-photo/free-photo-ramadan-kareem-eid-mubarak-royal-elegant-lamp-with-mosque-holy-gate-with-fireworks_1340-23597.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1711843200&semt=sph" alt=""></SwiperSlide>
               <SwiperSlide><img src="https://media.istockphoto.com/id/1475239283/photo/knowledge-is-power.jpg?s=612x612&w=0&k=20&c=xk8f8egx-fcsGbRysmbhBT9bymFIShNX9KPPv-OjGJY=" alt=""></SwiperSlide>
             </Swiper>
-            <p class="py-12 text-gray-700 text-center">
+            <p class="py-12 text-gray-700 text-center"
+               data-aos="zoom-out-left"
+               data-aos-duration="800">
               We will endeavour to have the body buried as soon as possible.
 
               St Georges Hospital and Croydon University College Hospital require a release form before the body can be released. The release form can be obtained either from the bereavement office or the ward Manager.            </p>
@@ -42,7 +46,8 @@
           </div>
           <div class="w-full lg:w-1/2 pt-16" >
             <div>
-              <div >
+              <div data-aos="zoom-out-right"
+                   data-aos-duration="800">
                 <a class="flex items-center font-semibold"
                    href="/">
                   <img class="w-20 m-2" src="@/assets/images/logo-remove.png" alt="" >
@@ -55,7 +60,7 @@
               <h1 class="text-2xl font-semibold text-center">Key Information About Our Funeral Services!</h1>
               <div><img src="@/assets/images/flower.png" alt="" class="w-16 h-16 m-5 mx-auto"></div>
 
-              <div class="">
+              <div data-aos="zoom-out-left">
                 <ul class="flex flex-col lg:flex-row lg:flex-wrap">
                   <li class="flex p-2 items-center w-1/2">
                     <i class="fa-regular fa-circle-check text-xl text-primary px-2"></i>
@@ -94,7 +99,9 @@
       <section>
         <div class="container">
           <div class="flex flex-col lg:flex-row">
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-1/2"
+                 data-aos="zoom-out-left"
+                 data-aos-duration="800">
 
               <h1 class="text-4xl font-semibold pl-8 pt-10">Funeral Guide</h1>
               <div class="p-8">
@@ -130,7 +137,9 @@
               </div>
             </div>
 
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-1/2"
+                 data-aos="zoom-out-right"
+                 data-aos-duration="800">
               <div>
                 <img class="p-4" src="https://image.tensorartassets.com/cdn-cgi/image/w=2560,f=jpeg,q=85/posts/images/677245454416731572/8c1f3160-7582-4829-8e63-af14cf62bedd.jpg" alt="">
               </div>
@@ -139,7 +148,9 @@
         </div>
 
         <div class="container">
-          <div class="flex flex-col lg:flex-row lg:pt-24 items-center">
+          <div class="flex flex-col lg:flex-row lg:pt-24 items-center"
+               data-aos="zoom-out-left"
+               data-aos-duration="800">
             <div class="w-full lg:w-1/4">
               <div><img src="@/assets/images/phone-call.jpg" alt="" class="p-8"></div>
             </div>

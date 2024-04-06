@@ -15,7 +15,9 @@
     <section>
       <div class="container pt-28">
         <div class="flex flex-col lg:flex-row">
-          <div class="w-full lg:w-1/2 lg:p-20">
+          <div class="w-full lg:w-1/2 lg:p-20"
+               data-aos="zoom-out-right"
+               data-aos-duration="800">
             <Swiper
                 :spaceBetween="40"
                 :centeredSlides="true"
@@ -35,13 +37,21 @@
               <SwiperSlide><img src="https://img.freepik.com/free-photo/couple-holding-hands_23-2147990707.jpg?t=st=1712136961~exp=1712140561~hmac=f9b7c048c89e0a78090795e4c2b9d49795fa15e48c3ba61fafcb7c67636e8908&w=740" alt=""></SwiperSlide>
               <SwiperSlide><img src="https://img.freepik.com/premium-photo/nikkah-certificate-save-date-frame-mockup_467389-74.jpg?w=360" alt=""></SwiperSlide>
             </Swiper>
-            <p class="py-12 text-gray-700 text-center">
+            <p class="py-12 text-gray-700 text-center"
+               data-aos="zoom-out-left"
+               data-aos-duration="800">
+
               Nikah (marriage) is a sacred social contract between bride and groom and is strongly encouraged in Islam. It is declared to be one half of a Muslim’s faith. In another narration the Prophet Muhammad (pbuh) has been reported to have said:
             </p>
-            <p class=" text-gray-700 text-center">
+            <p class=" text-gray-700 text-center"
+               data-aos="zoom-out-right"
+               data-aos-duration="800">
+
               Do not delay in three things; 1) The offering of the obligatory prayer, 2) The offering of the funeral prayer when the deceased’s body is present, 3) The marriage of a woman when her suitable match is found.</p>
           </div>
-          <div class="w-full lg:w-1/2 pt-16" >
+          <div class="w-full lg:w-1/2 pt-16"
+               data-aos="zoom-out-left"
+               data-aos-duration="800">
             <div>
               <div class=" ">
                 <a class="flex items-center font-semibold"
@@ -88,7 +98,9 @@
 
     <section>
       <div class="container">
-        <div class="flex flex-col lg:flex-row">
+        <div class="flex flex-col lg:flex-row"
+             data-aos="zoom-out-right"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/2">
             <h1 class="text-4xl font-semibold pl-8 lg:pt-10">Key Considerations</h1>
             <div class="p-8">
@@ -108,7 +120,9 @@
       </div>
 
       <div class="container">
-        <div class="flex flex-col lg:flex-row items-center lg:pt-20">
+        <div class="flex flex-col lg:flex-row items-center lg:pt-20"
+             data-aos="zoom-out-left"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/4">
             <div><img src="@/assets/images/phone-call.jpg" alt="" class="lg:p-8"></div>
           </div>

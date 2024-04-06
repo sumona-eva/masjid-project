@@ -15,7 +15,9 @@
     <section>
       <div class="container pt-28">
         <div class="flex flex-col lg:flex-row">
-          <div class="w-full lg:w-1/2 lg:p-20">
+          <div class="w-full lg:w-1/2 lg:p-20"
+               data-aos="zoom-out-right"
+               data-aos-duration="800">
             <Swiper
                 :spaceBetween="40"
                 :centeredSlides="true"
@@ -35,10 +37,14 @@
               <SwiperSlide><img src="https://images.pexels.com/photos/18051832/pexels-photo-18051832/free-photo-of-courtyard-of-the-sheikh-zayed-grand-mosque-with-a-marble-floor.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></SwiperSlide>
               <SwiperSlide><img src="https://images.pexels.com/photos/15224039/pexels-photo-15224039/free-photo-of-sheikh-zayed-grand-mosque-in-abu-dhabi.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></SwiperSlide>
             </Swiper>
-            <p class="py-12 text-gray-700 text-center">
+            <p class="py-12 text-gray-700 text-center"
+               data-aos="zoom-out-left"
+               data-aos-duration="800">
               As part of the Mosques Community Outreach programme, Balham Mosque & Tooting Islamic Centre again joined forces with an initiative launched by the Muslim Council of Britain (MCB) several years ago, entitled Visit My Mosque.            </p>
           </div>
-          <div class="w-full lg:w-1/2 lg:pt-16" >
+          <div class="w-full lg:w-1/2 lg:pt-16"
+               data-aos="zoom-out-right"
+               data-aos-duration="800">
             <div>
                 <div class=" lg:pt-48 ">
                   <a class="flex items-center font-semibold"
@@ -60,7 +66,9 @@
 
     <section>
       <div class="container">
-        <div class="flex flex-col lg:flex-row">
+        <div class="flex flex-col lg:flex-row"
+             data-aos="zoom-out-left"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/2">
 
             <h1 class="text-4xl font-semibold pl-8">Overview</h1>
@@ -92,7 +100,9 @@
 
 
       <div class="container">
-        <div class="flex flex-col lg:flex-row pt-24 items-center">
+        <div class="flex flex-col lg:flex-row pt-24 items-center"
+             data-aos="zoom-out-right"
+             data-aos-duration="800">
           <div class="w-full lg:w-1/4">
             <div><img src="@/assets/images/phone-call.jpg" alt="" class="p-8"></div>
           </div>
